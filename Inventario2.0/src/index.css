@@ -1,0 +1,193 @@
+@import './styles/AcercaDe.css';
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 1; 
+  top: 0;
+}
+
+table{
+  text-align: center;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+thead{
+  background-color: #333;
+  color: #fff;
+}
+
+th, td{
+  text-align: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+th{
+  padding: 10px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+tr{
+  text-align: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+/* th {
+  background-color: #f2f2f2; 
+} */
+
+
+td {
+  min-width: 200px; 
+}
+
+
+#TableActions{
+  width: 180px;
+  margin-left: 10px;
+}
+
+.btn-user{
+  /* border-radius: 60px; */
+  color: #f2f2f2;
+  /* background-color: gray;  */
+  font-size: 26px;;
+}
+
+input{
+  padding: 3px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.login {
+  display: block;
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 60px;
+}
+
+.Login-Form{
+  height: 300px;
+}
+
+.Login-Cont{
+  width: 60%;
+  height: 300px;
+}
+
+.Btn-Login > button{
+  margin-top: 200px;
+  width: 65%;
+  height: 45px;
+}
+
+.Btn-Login{
+  margin-top: 30px;
+}
+
+#Titulo-Login{
+  font-size: 30px;
+  margin: 28px auto 30px 26px;
+  font-weight: 700;
+}
+
+.Login-Form > input{
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.Login-Form > label{
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.Login-Form input{
+  margin-bottom: 14px;
+}
+
+.Register-Form{
+  height: 460px;
+}
+
+.Register-Cont{
+  width: 60%;
+  height: 460px;
+}
+
+.btn-Agregar{
+  width: 110%;
+  position: fixed;
+  /* z-index: 1;  */
+  top: 60px;
+}
+
+.btn-Agregar input{
+  margin: auto 50% auto 20px;
+}
+
+.btn-Usuarios{
+  width: 105%;
+  position: fixed;
+  /* z-index: 1;  */
+  top: 60px;
+}
+
+.btn-Usuarios input{  
+  margin: auto 40% auto 20px;
+}
+
+.FormData{
+  margin: auto;
+  margin-top: 2%;
+  max-width: 86%;
+}
+
+/* .SelectData{
+  width: 30%;
+} */
+
+/* Media queries para hacer los formularios responsivos */
+@media screen and (max-width: 768px) {
+  /* Estilos para dispositivos pequeños como tablets */
+  .login {
+    width: 80%;
+    margin: 60px auto;
+  }
+
+  /* Ajuste de ancho para los inputs en dispositivos pequeños */
+  .Login-Form input, .Register-Form input {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .Login-Form label, .Register-Form label {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Estilos para dispositivos extra pequeños como teléfonos móviles */
+  .login {
+    width: 90%;
+  }
+}

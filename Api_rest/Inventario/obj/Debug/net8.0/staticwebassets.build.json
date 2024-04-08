@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "peaON65j9QsEmf/hchbUg8DEZiG0Z0JfvMYT8rLKiK4=",
+  "Source": "Inventario",
+  "BasePath": "_content/Inventario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Inventario\\wwwroot",
+      "Source": "Inventario",
+      "ContentRoot": "C:\\Users\\A19A05048\\Desktop\\PROGRAMACION\\.NET\\API_REST\\Inventario\\wwwroot\\",
+      "BasePath": "_content/Inventario",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\A19A05048\\Desktop\\PROGRAMACION\\.NET\\API_REST\\Inventario\\wwwroot\\images\\MIVED.png",
+      "SourceId": "Inventario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\A19A05048\\Desktop\\PROGRAMACION\\.NET\\API_REST\\Inventario\\wwwroot\\",
+      "BasePath": "_content/Inventario",
+      "RelativePath": "images/MIVED.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MIVED.png"
+    }
+  ]
+}
