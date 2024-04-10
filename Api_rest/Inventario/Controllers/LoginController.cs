@@ -243,7 +243,7 @@ namespace Inventario.Controllers
         }
         // [Authorize(Roles = StaticUserRoles.SUPERADMIN)]
         [HttpDelete("{id}")]
-        public async Task<ActionResult<User>> Delete(string id)
+        public async Task<ActionResult<User>> Delete(int id)
         {
             var user = await _context.usuarios.FindAsync(id);
             if (user == null)
