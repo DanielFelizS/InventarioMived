@@ -1,7 +1,7 @@
-import { DiReact, DiBootstrap, DiGithubBadge, DiGit, DiSass, DiPython, DiNpm   } from "react-icons/di";
-import { SiDotnet, SiMicrosoftsqlserver, SiCsharp, SiPostman, SiMysql, SiKalilinux} from "react-icons/si";
+import { DiReact, DiBootstrap, DiGithubBadge, DiGit, DiSass, DiNpm   } from "react-icons/di";
+import { SiDotnet, SiMicrosoftsqlserver, SiCsharp, SiPostman} from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
-import { FaAngular, FaNodeJs, FaUnity, FaLinkedin  } from "react-icons/fa";
+import { FaAngular, FaLinkedin  } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import { BiLogoTypescript } from "react-icons/bi";
 import { AiFillInstagram } from "react-icons/ai";
@@ -20,9 +20,7 @@ export default function Pasantes (props: Props) {
     const { nombre, apellido, personaImg, IconName, number } = props;
 
     const Iconos: Record<string, JSX.Element[]> = {
-        Daniel: [<DiReact/>, <DiSass/>, <RiJavascriptFill/>, <BiLogoTypescript/>, <DiBootstrap/>, <SiMicrosoftsqlserver/> , <SiDotnet/>, <DiGithubBadge/>, <DiGit/>, <DiNpm/>, <SiPostman/>, <DiPython/>, <SiCsharp/>],
-        Francis: [<SiMicrosoftsqlserver/>, <SiMysql/>, <FaAngular/>, <BiLogoTypescript/>, <FaNodeJs/>, <SiCsharp/>, <SiDotnet/>, <SiKalilinux/>],
-        Leonardo: [<SiMysql/>, <FaAngular/>, <BiLogoTypescript/> , <FaNodeJs/>, <FaUnity/>, <SiCsharp/>]
+        Daniel: [<DiReact/>, <DiSass/>, <RiJavascriptFill/>, <BiLogoTypescript/>, <FaAngular/> <DiBootstrap/>, <SiMicrosoftsqlserver/> , <SiDotnet/>, <DiGithubBadge/>, <DiGit/>, <DiNpm/>, <SiPostman/>, <DiPython/>, <SiCsharp/>],
     };
 
     const Fuentes: Record<string, { icon: JSX.Element, href: string}[]> = {
@@ -32,15 +30,7 @@ export default function Pasantes (props: Props) {
         {icon: <MdOutlineEmail />, href: "mailto:felizsdaniel0@gmail.com"},
         {icon: <FaYoutube />, href: "https://youtube.com/@danielfeliz01?si=RtcSgkGO9-NX_6EF" },
         {icon: <ImProfile />, href: "https://daniel-feliz-portfolio.vercel.app/"}
-      ],
-      Francis: [
-      {icon: <AiFillInstagram />, href: "https://www.instagram.com/ghost153798?igsh=bzA4bzY1NWhrdWI3&utm_source=qr"}, 
-      {icon: <MdOutlineEmail />, href: "mailto:enmanuelo1530@gmail.com"}
-    ],
-      Leonardo: [
-        {icon: <AiFillInstagram />, href: "https://www.instagram.com/leonardo_rm69/"}, 
-        {icon: <MdOutlineEmail />, href: "mailto:lrm.r.m.do@gmail.com"}
-      ],
+      ]
     };
     
   return (
